@@ -12,13 +12,13 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            background-color: #35140f;
         }
         .container {
             text-align: center;
             font-size: 2rem;
             padding: 20px;
-            background-color: #ffffff;
+            background-color: #b40f23;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
@@ -32,11 +32,10 @@
     <script>
         // Array of text lines to cycle through
         const texts = [
-            "always watching",
-            "Stay tuned for exciting updates.",
-            "Don't forget to check out our latest offers!",
-            "Thanks for visiting us today!",
-            "We value your feedback. Reach out anytime!"
+            "the Wickerlune always listenes",
+            "The elevator speaks on floor 13",
+            "Tough stain?",
+            "We hope you enjoy your stay",
         ];
 
         let currentTextIndex = 0;
@@ -50,7 +49,7 @@
         }
 
         // Change text every 30 seconds (30000 milliseconds)
-        setInterval(changeText, 30000);
+        setInterval(changeText, 3000);
 
         // Initial call to display text immediately on load
         changeText();
